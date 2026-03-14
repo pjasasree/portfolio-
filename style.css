@@ -21,9 +21,9 @@ header {
 /* Navigation */
 nav {
   background: #555;
-  padding: 10px;
+  padding: 12px;
   text-align: center;
-  position: sticky; /* sticky nav */
+  position: sticky;
   top: 0;
   z-index: 100;
 }
@@ -42,11 +42,10 @@ nav a:hover {
 /* Sections */
 section {
   background: white;
-  max-width: 800px;
   margin: 20px auto;
-  padding: 40px 20px;
+  padding: 25px;
   border-radius: 8px;
-  min-height: 200px;
+  max-width: 900px;
 }
 
 /* Section headings */
@@ -77,17 +76,18 @@ ul {
   padding: 20px;
   text-align: center;
   box-shadow: 0 3px 6px rgba(0,0,0,0.1);
-  transition: transform 0.2s;
+  transition: transform 0.3s;
 }
 
+/* Hover effect */
 .project-card:hover {
   transform: scale(1.05);
 }
 
 /* Images inside project cards */
 .project-card img {
-  width: 100%;           /* image fills card width */
-  border-radius: 8px;    /* rounded corners same as card */
-  margin-bottom: 15px;   /* space between image and text */
-  object-fit: cover;     /* ensures image scales nicely */
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  object-fit: cover;
 }
